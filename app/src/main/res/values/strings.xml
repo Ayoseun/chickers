@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Chickers</string>
+    <string name="sign_in_to_continue">sign in to continue</string>
+    <string name="welcome">WELCOME</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="dodo">dodo</string>
+    <string name="sign_up">Sign up</string>
+    <string name="dont_have_an_account">dont have an account</string>
+    <string name="schedule_work_time">Schedule work time</string>
+    <string name="maintain_work_flow_with_effective_attendance">maintain work flow with effective attendance</string>
+    <string name="set_up_profile_and_keep_record_of_cumculative_punctuality_timing">set up profile and keep record of cumculative punctuality timing</string>
+    <string name="todso">TODsO</string>
+    <string name="sss">sss</string>
+    <string name="tssodo">TssODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="clockwork">ClockWork</string>
+    <string name="rewa">rewa</string>
+    <string name="login_or_sign_up">login or sign up</string>
+    <string name="todto">TODtO</string>
+    <string name="tuyty7">tuyty7</string>
+    <string name="nature">nature</string>
+    <string name="_00_00">00:00</string>
+    <string name="click_the_tiny_leaf">click the tiny leaf</string>
+    <string name="puzzle_time">puzzle time</string>
+    <string name="swap_tile">swap tile</string>
+    <string name="puzzle_game">Puzzle Game</string>
+
+
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.mushroom.chickers.MainActivity">
+
+
+
+    <LinearLayout
+        android:visibility="visible"
+        android:id="@+id/loser"
+        android:layout_width="50dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:padding="7dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentStart="true">
+
+
+        <ImageButton
+            android:id="@+id/egghBtn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="0dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/tssodo"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_baseline_eco_24" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="0dp"
+            android:padding="8dp"
+            android:id="@+id/puzzleBtn"
+            android:scaleType="centerCrop"
+            android:background="#00FFFFFF"
+            android:src="@drawable/ic_outline_extension_24black"
+            android:contentDescription="@string/todso" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="0dp"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/setBtn"
+            android:src="@drawable/ic_outline_settings_24black"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/sss" />
+
+    </LinearLayout>
+    <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+        android:id="@+id/framerneolover"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:neomorph_shadow_color="@color/shadowColor"
+        android:background="@color/background"
+        app:neomorph_shadow_type="outer"
+        app:neomorph_layer_type="software"
+        app:neomorph_background_color="@color/background"
+        app:neomorph_corner_radius="10dp"
+        app:neomorph_elevation="3dp"
+        app:neomorph_view_type="circular"
+        app:neomorph_highlight_color="@color/neomorph_highlight_color">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:elevation="3dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:padding="10dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="1dp"
+            android:background="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_baseline_favorite_24"
+            android:contentDescription="@string/tuyty7"
+            android:focusable="true" />
+    </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+    <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+        android:layout_width="wrap_content"
+        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="140dp"
+        android:background="@color/background"
+        app:neomorph_background_color="@color/background"
+        app:neomorph_corner_radius="10dp"
+        app:neomorph_elevation="10dp"
+        app:neomorph_highlight_color="@color/highlight"
+        app:neomorph_shadow_color="@color/shadowColor"
+        app:neomorph_shadow_type="outer"
+        app:neomorph_view_type="rectangular">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingEnd="5dp"
+    android:paddingStart="5dp"
+    android:paddingTop="10dp">
+
+    <com.mushroom.chickers.GestureDetectGridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
+
+    </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+    <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+        android:layout_width="wrap_content"
+        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="115dp"
+
+        android:layout_marginBottom="10dp"
+        android:background="@color/background"
+        app:neomorph_background_color="@color/background"
+        app:neomorph_corner_radius="10dp"
+        app:neomorph_elevation="3dp"
+        app:neomorph_highlight_color="@color/neomorph_highlight_color"
+        app:neomorph_layer_type="software"
+        app:neomorph_shadow_color="@color/shadowColor"
+        app:neomorph_shadow_type="outer"
+        app:neomorph_view_type="rectangular"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:paddingEnd="15dp"
+            android:paddingBottom="10dp"
+            android:text="@string/swap_tile"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+    </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/puzzle_game"
+    android:textSize="20sp"
+    android:layout_marginStart="120dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"/>
+
+
+    <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+        android:layout_width="wrap_content"
+        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="80dp"
+        android:background="@color/background"
+        app:neomorph_background_color="@color/background"
+        app:neomorph_corner_radius="10dp"
+        app:neomorph_elevation="3dp"
+        app:neomorph_highlight_color="@color/neomorph_highlight_color"
+        app:neomorph_layer_type="software"
+        app:neomorph_shadow_color="@color/shadowColor"
+        app:neomorph_shadow_type="inner"
+        app:neomorph_view_type="rectangular">
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            style="@android:style/Widget.Material.SeekBar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:progressTint="@color/nature"
+            android:thumb="@color/background"
+            android:outlineProvider="background"/>
+
+    </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+</RelativeLayout>
